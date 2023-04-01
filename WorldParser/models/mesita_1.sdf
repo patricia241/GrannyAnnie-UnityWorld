@@ -1,0 +1,314 @@
+<?xml version="1.0" ?>
+<sdf version='1.4'>
+  <model name='mesita_1'>
+    <link name='mesita_link'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0.2975 0 -0 0</pose>
+        <mass>8</mass>
+        <inertia>
+          <ixx>0.24835</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.38525</iyy>
+          <iyz>0</iyz>
+          <izz>0.1969</izz>
+        </inertia>
+      </inertial>
+      <collision name='mesita_link_collision'>
+        <pose>0 0 0.01 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.35 0.35 0.02</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='mesita_link_collision_basal_1_link'>
+        <pose>0 0 0.19 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.35 0.35 0.02</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='mesita_link_collision_basal_2_link'>
+        <pose>0 0 0.39 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.35 0.35 0.02</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='mesita_link_collision_basal_3_link'>
+        <pose>0 0 0.59 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.35 0.35 0.02</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='mesita_link_collision_lateral_1_link'>
+        <pose>0.185 0 0.3 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.02 0.35 0.6</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='mesita_link_collision_lateral_2_link'>
+        <pose>-0.185 0 0.3 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.02 0.35 0.6</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='mesita_link_visual'>
+        <pose>0 0 0.01 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.35 0.35 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='mesita_link_visual_basal_1_link'>
+        <pose>0 0 0.19 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.35 0.35 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='mesita_link_visual_basal_2_link'>
+        <pose>0 0 0.39 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.35 0.35 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='mesita_link_visual_basal_3_link'>
+        <pose>0 0 0.59 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.35 0.35 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='mesita_link_visual_lateral_1_link'>
+        <pose>0.185 0 0.3 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.02 0.35 0.6</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='mesita_link_visual_lateral_2_link'>
+        <pose>-0.185 0 0.3 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.02 0.35 0.6</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <gravity>1</gravity>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <self_collide>1</self_collide>
+      <kinematic>0</kinematic>
+    </link>
+    <pose>-2.6 -8.28 0 0 -0 0</pose>
+    <static>0</static>
+  </model>
+</sdf>

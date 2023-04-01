@@ -1,0 +1,214 @@
+<?xml version="1.0" ?>
+<sdf version='1.4'>
+  <model name='sofa_x1_1_salon'>
+    <link name='sofa_link'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0.01875 0.309375 0 -0 0</pose>
+        <mass>8</mass>
+        <inertia>
+          <ixx>0.705859</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.886172</iyy>
+          <iyz>-0.0385938</iyz>
+          <izz>0.709687</izz>
+        </inertia>
+      </inertial>
+      <collision name='sofa_link_collision'>
+        <pose>0 0 0.175 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.8 0.35</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='sofa_link_collision_brazo_1_link'>
+        <pose>0.35 -0.05 0.45 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.2 0.7 0.2</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='sofa_link_collision_brazo_2_link'>
+        <pose>-0.35 -0.05 0.45 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.2 0.7 0.2</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='sofa_link_collision_respaldo_link'>
+        <pose>0 0.25 0.55 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.3 0.4</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='sofa_link_visual'>
+        <pose>0 0 0.175 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.8 0.35</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Grey</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='sofa_link_visual_brazo_1_link'>
+        <pose>0.35 -0.05 0.45 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.2 0.7 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Grey</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='sofa_link_visual_brazo_2_link'>
+        <pose>-0.35 -0.05 0.45 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.2 0.7 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Grey</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='sofa_link_visual_respaldo_link'>
+        <pose>0 0.25 0.55 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 0.3 0.4</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Grey</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <gravity>1</gravity>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <self_collide>1</self_collide>
+      <kinematic>0</kinematic>
+    </link>
+    <pose>-4.5 -0.6 0 0 0 -1.57</pose>
+    <static>0</static>
+  </model>
+</sdf>

@@ -1,0 +1,264 @@
+<?xml version="1.0" ?>
+<sdf version='1.4'>
+  <model name='mesa_comedor'>
+    <link name='mesa_link'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>1.58603e-17 0 0.513571 0 -0 0</pose>
+        <mass>7</mass>
+        <inertia>
+          <ixx>1.28229</ixx>
+          <ixy>0</ixy>
+          <ixz>5.70179e-17</ixz>
+          <iyy>3.10629</iyy>
+          <iyz>0</iyz>
+          <izz>3.4192</izz>
+        </inertia>
+      </inertial>
+      <collision name='mesa_link_collision'>
+        <pose>0 0 0.725 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.6 0.8 0.03</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='mesa_link_collision_pata_1_link'>
+        <pose>0.77 0.37 0.355 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.06 0.71</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='mesa_link_collision_pata_2_link'>
+        <pose>0.77 -0.37 0.355 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.06 0.71</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='mesa_link_collision_pata_3_link'>
+        <pose>-0.77 -0.37 0.355 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.06 0.71</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='mesa_link_collision_pata_4_link'>
+        <pose>-0.77 0.37 0.355 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.06 0.71</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='mesa_link_visual'>
+        <pose>0 0 0.725 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.6 0.8 0.03</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/BlueTransparent</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='mesa_link_visual_pata_1_link'>
+        <pose>0.77 0.37 0.355 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.06 0.71</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='mesa_link_visual_pata_2_link'>
+        <pose>0.77 -0.37 0.355 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.06 0.71</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='mesa_link_visual_pata_3_link'>
+        <pose>-0.77 -0.37 0.355 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.06 0.71</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='mesa_link_visual_pata_4_link'>
+        <pose>-0.77 0.37 0.355 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.06 0.71</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <gravity>1</gravity>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <self_collide>1</self_collide>
+      <kinematic>0</kinematic>
+    </link>
+    <pose>-7.4 -5 0 0 -0 1.57</pose>
+    <static>0</static>
+  </model>
+</sdf>

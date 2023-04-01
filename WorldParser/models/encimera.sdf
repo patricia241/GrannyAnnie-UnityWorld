@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<sdf version='1.4'>
+  <model name='encimera'>
+    <link name='encimera_link'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0.425 0 -0 0</pose>
+        <mass>50</mass>
+        <inertia>
+          <ixx>5</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>5</iyy>
+          <iyz>0</iyz>
+          <izz>5</izz>
+        </inertia>
+      </inertial>
+      <collision name='encimera_link_collision'>
+        <pose>0 0 0.425 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.1 0.6 0.85</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='encimera_link_visual'>
+        <pose>0 0 0.425 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.1 0.6 0.85</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <gravity>1</gravity>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <self_collide>1</self_collide>
+      <kinematic>0</kinematic>
+    </link>
+    <pose>-3.6 -4.39 0 0 -0 1.57</pose>
+    <static>0</static>
+  </model>
+</sdf>

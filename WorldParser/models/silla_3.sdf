@@ -1,0 +1,314 @@
+<?xml version="1.0" ?>
+<sdf version='1.4'>
+  <model name='silla_3'>
+    <link name='silla_link'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0.0215 0 0.353 0 -0 0</pose>
+        <mass>2</mass>
+        <inertia>
+          <ixx>0.674432</ixx>
+          <ixy>0</ixy>
+          <ixz>-0.012986</ixz>
+          <iyy>0.682753</iyy>
+          <iyz>0</iyz>
+          <izz>0.675561</izz>
+        </inertia>
+      </inertial>
+      <collision name='silla_link_collision'>
+        <pose>0 0 0.415 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.45 0.45 0.03</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='silla_link_collision_pata_1_link'>
+        <pose>0.205 0.205 0.2 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.04 0.04 0.4</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='silla_link_collision_pata_2_link'>
+        <pose>0.205 -0.205 0.2 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.04 0.04 0.4</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='silla_link_collision_pata_3_link'>
+        <pose>-0.205 -0.205 0.2 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.04 0.04 0.4</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='silla_link_collision_pata_4_link'>
+        <pose>-0.205 0.205 0.2 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.04 0.04 0.4</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='silla_link_collision_respaldo_link'>
+        <pose>0.215 0 0.655 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.02 0.45 0.45</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='silla_link_visual'>
+        <pose>0 0 0.415 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.45 0.45 0.03</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Grey</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='silla_link_visual_pata_1_link'>
+        <pose>0.205 0.205 0.2 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.04 0.04 0.4</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='silla_link_visual_pata_2_link'>
+        <pose>0.205 -0.205 0.2 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.04 0.04 0.4</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='silla_link_visual_pata_3_link'>
+        <pose>-0.205 -0.205 0.2 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.04 0.04 0.4</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='silla_link_visual_pata_4_link'>
+        <pose>-0.205 0.205 0.2 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.04 0.04 0.4</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='silla_link_visual_respaldo_link'>
+        <pose>0.215 0 0.655 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.02 0.45 0.45</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Grey</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <gravity>1</gravity>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <self_collide>1</self_collide>
+      <kinematic>0</kinematic>
+    </link>
+    <pose>-7.7 -5.4 0 0 -0 3.14</pose>
+    <static>0</static>
+  </model>
+</sdf>

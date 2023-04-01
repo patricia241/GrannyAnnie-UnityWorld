@@ -1,0 +1,414 @@
+<?xml version="1.0" ?>
+<sdf version='1.4'>
+  <model name='estanteria_1'>
+    <link name='estanteria_link'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 1.046 0 -0 0</pose>
+        <mass>10</mass>
+        <inertia>
+          <ixx>3.12544</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>4.16584</iyy>
+          <iyz>0</iyz>
+          <izz>1.1204</izz>
+        </inertia>
+      </inertial>
+      <collision name='estanteria_link_collision'>
+        <pose>0 0 0.01 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1 0.35 0.02</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='estanteria_link_collision_basal_1_link'>
+        <pose>0 0 0.41 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1 0.35 0.02</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='estanteria_link_collision_basal_2_link'>
+        <pose>0 0 0.83 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1 0.35 0.02</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='estanteria_link_collision_basal_3_link'>
+        <pose>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1 0.35 0.02</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='estanteria_link_collision_basal_4_link'>
+        <pose>0 0 1.67 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1 0.35 0.02</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='estanteria_link_collision_basal_5_link'>
+        <pose>0 0 2.09 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1 0.35 0.02</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='estanteria_link_collision_lateral_1_link'>
+        <pose>0.51 0 1.05 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.02 0.35 2.1</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='estanteria_link_collision_lateral_2_link'>
+        <pose>-0.51 0 1.05 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.02 0.35 2.1</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='estanteria_link_visual'>
+        <pose>0 0 0.01 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1 0.35 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='estanteria_link_visual_basal_1_link'>
+        <pose>0 0 0.41 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1 0.35 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='estanteria_link_visual_basal_2_link'>
+        <pose>0 0 0.83 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1 0.35 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='estanteria_link_visual_basal_3_link'>
+        <pose>0 0 1.25 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1 0.35 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='estanteria_link_visual_basal_4_link'>
+        <pose>0 0 1.67 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1 0.35 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='estanteria_link_visual_basal_5_link'>
+        <pose>0 0 2.09 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1 0.35 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='estanteria_link_visual_lateral_1_link'>
+        <pose>0.51 0 1.05 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.02 0.35 2.1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='estanteria_link_visual_lateral_2_link'>
+        <pose>-0.51 0 1.05 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.02 0.35 2.1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Wood</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <gravity>1</gravity>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <self_collide>1</self_collide>
+      <kinematic>0</kinematic>
+    </link>
+    <pose>-0.3 -0.52 0 0 -0 0</pose>
+    <static>0</static>
+  </model>
+</sdf>

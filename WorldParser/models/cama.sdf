@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<sdf version='1.4'>
+  <model name='cama'>
+    <link name='cama_link'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0.0176471 0 0.204902 0 -0 0</pose>
+        <mass>51</mass>
+        <inertia>
+          <ixx>10.1613</ixx>
+          <ixy>0</ixy>
+          <ixz>-0.220588</ixz>
+          <iyy>10.9554</iyy>
+          <iyz>0</iyz>
+          <izz>10.8941</izz>
+        </inertia>
+      </inertial>
+      <collision name='cama_link_collision'>
+        <pose>0 0 0.2 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.1 1.5 0.4</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <collision name='cama_link_collision_almohada_link'>
+        <pose>0.9 0 0.45 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 1.5 0.1</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+          <bounce/>
+        </surface>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='cama_link_visual'>
+        <pose>0 0 0.2 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.1 1.5 0.4</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/White</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='cama_link_visual_almohada_link'>
+        <pose>0.9 0 0.45 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 1.5 0.1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/White</name>
+            <uri>__default__</uri>
+          </script>
+        </material>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <gravity>1</gravity>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+      <self_collide>1</self_collide>
+      <kinematic>0</kinematic>
+    </link>
+    <pose>-1.6 -7.41 0 0 0 -1.57</pose>
+    <static>0</static>
+  </model>
+</sdf>
