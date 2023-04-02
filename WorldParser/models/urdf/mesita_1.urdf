@@ -10,78 +10,78 @@
       <inertia ixx="0.24835" ixy="0" ixz="0" iyy="0.38525" iyz="0" izz="0.1969"/>
     </inertial>
     <collision name="mesita_1__mesita_link_collision">
-      <origin xyz="-2.6     -8.27999  0.01" rpy="0 0 0"/>
+      <origin xyz="2.6     8.27999  0.01" rpy="0 0 0"/>
       <geometry>
         <box size="0.35 0.35 0.02"/>
       </geometry>
     </collision>
     <collision name="mesita_1__mesita_link_collision_basal_1_link">
-      <origin xyz="-2.6     -8.27999  0.19" rpy="0 0 0"/>
+      <origin xyz="2.6     8.27999  0.19" rpy="0 0 0"/>
       <geometry>
         <box size="0.35 0.35 0.02"/>
       </geometry>
     </collision>
     <collision name="mesita_1__mesita_link_collision_basal_2_link">
-      <origin xyz="-2.6     -8.27999  0.39" rpy="0 0 0"/>
+      <origin xyz="2.6     8.27999  0.39" rpy="0 0 0"/>
       <geometry>
         <box size="0.35 0.35 0.02"/>
       </geometry>
     </collision>
     <collision name="mesita_1__mesita_link_collision_basal_3_link">
-      <origin xyz="-2.6     -8.27999  0.59" rpy="0 0 0"/>
+      <origin xyz="2.6     8.27999  0.59" rpy="0 0 0"/>
       <geometry>
         <box size="0.35 0.35 0.02"/>
       </geometry>
     </collision>
     <collision name="mesita_1__mesita_link_collision_lateral_1_link">
-      <origin xyz="-2.415   -8.27999  0.3" rpy="0 0 0"/>
+      <origin xyz="2.415   8.27999  0.3" rpy="0 0 0"/>
       <geometry>
         <box size="0.02 0.35 0.6"/>
       </geometry>
     </collision>
     <collision name="mesita_1__mesita_link_collision_lateral_2_link">
-      <origin xyz="-2.785   -8.27999  0.3" rpy="0 0 0"/>
+      <origin xyz="2.785   8.27999  0.3" rpy="0 0 0"/>
       <geometry>
         <box size="0.02 0.35 0.6"/>
       </geometry>
     </collision>
     <visual name="mesita_1__mesita_link_visual">
-      <origin xyz="-2.6     -8.27999  0.01" rpy="0 0 0"/>
+      <origin xyz="2.6     8.27999  0.01" rpy="0 0 0"/>
       <geometry>
         <box size="0.35 0.35 0.02"/>
       </geometry>
       <material name="wood"/>
     </visual>
     <visual name="mesita_1__mesita_link_visual_basal_1_link">
-      <origin xyz="-2.6     -8.27999  0.19" rpy="0 0 0"/>
+      <origin xyz="2.6     8.27999  0.19" rpy="0 0 0"/>
       <geometry>
         <box size="0.35 0.35 0.02"/>
       </geometry>
       <material name="wood"/>
     </visual>
     <visual name="mesita_1__mesita_link_visual_basal_2_link">
-      <origin xyz="-2.6     -8.27999  0.39" rpy="0 0 0"/>
+      <origin xyz="2.6     8.27999  0.39" rpy="0 0 0"/>
       <geometry>
         <box size="0.35 0.35 0.02"/>
       </geometry>
       <material name="wood"/>
     </visual>
     <visual name="mesita_1__mesita_link_visual_basal_3_link">
-      <origin xyz="-2.6     -8.27999  0.59" rpy="0 0 0"/>
+      <origin xyz="2.6     8.27999  0.59" rpy="0 0 0"/>
       <geometry>
         <box size="0.35 0.35 0.02"/>
       </geometry>
       <material name="wood"/>
     </visual>
     <visual name="mesita_1__mesita_link_visual_lateral_1_link">
-      <origin xyz="-2.415   -8.27999  0.3" rpy="0 0 0"/>
+      <origin xyz="2.415   8.27999  0.3" rpy="0 0 0"/>
       <geometry>
         <box size="0.02 0.35 0.6"/>
       </geometry>
       <material name="wood"/>
     </visual>
     <visual name="mesita_1__mesita_link_visual_lateral_2_link">
-      <origin xyz="-2.785   -8.27999  0.3" rpy="0 0 0"/>
+      <origin xyz="2.785   8.27999  0.3" rpy="0 0 0"/>
       <geometry>
         <box size="0.02 0.35 0.6"/>
       </geometry>

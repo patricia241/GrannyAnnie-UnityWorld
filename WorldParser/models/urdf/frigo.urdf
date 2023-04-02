@@ -10,13 +10,13 @@
       <inertia ixx="5" ixy="0" ixz="0" iyy="5" iyz="0" izz="5"/>
     </inertial>
     <collision name="frigo__frigo_link_collision">
-      <origin xyz="-3.6  -5.75  0.9" rpy="0 0 0"/>
+      <origin xyz="3.6  5.75  0.9" rpy="0 0 0"/>
       <geometry>
         <box size="0.6 0.6 1.8"/>
       </geometry>
     </collision>
     <visual name="frigo__frigo_link_visual">
-      <origin xyz="-3.6  -5.75  0.9" rpy="0 0 0"/>
+      <origin xyz="3.6  5.75  0.9" rpy="0 0 0"/>
       <geometry>
         <box size="0.6 0.6 1.8"/>
       </geometry>

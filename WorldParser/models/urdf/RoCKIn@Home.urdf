@@ -10,13 +10,13 @@
       <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
     </inertial>
     <collision name="RoCKInATHome__Wall_12_Collision">
-      <origin xyz="-0.79878 -0.79904  1.25" rpy="0     0     3.1408"/>
+      <origin xyz="0.79878 0.79904  1.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="2.6 0.2 2.5"/>
       </geometry>
     </collision>
     <visual name="RoCKInATHome__Wall_12_Visual">
-      <origin xyz="-0.79878 -0.79904  1.25" rpy="0     0     3.1408"/>
+      <origin xyz="0.79878 0.79904  1.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="2.6 0.2 2.5"/>
       </geometry>
@@ -30,44 +30,58 @@
       <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
     </inertial>
     <collision name="RoCKInATHome__Wall_14_Collision_0">
-      <origin xyz="-1.99897 -1.29059  1.25" rpy="0       0      -1.57159"/>
+      <origin xyz="1.99897 1.29059  1.25" rpy="0       0      -1.57159"/>
       <geometry>
         <box size="1.18422 0.2 2.5"/>
-      </geometry>
-    </collision>
-    <collision name="RoCKInATHome__Wall_14_Collision_1">
-      <origin xyz="-2.00081 -3.59059  1.25" rpy="0       0      -1.57159"/>
-      <geometry>
-        <box size="1.41579 0.2 2.5"/>
-      </geometry>
-    </collision>
-    <collision name="RoCKInATHome__Wall_14_Collision_2">
-      <origin xyz="-1.99984 -2.3827   2.25" rpy="0       0      -1.57159"/>
-      <geometry>
-        <box size="1 0.2 0.5"/>
       </geometry>
     </collision>
     <visual name="RoCKInATHome__Wall_14_Visual_0">
-      <origin xyz="-1.99897 -1.29059  1.25" rpy="0       0      -1.57159"/>
+      <origin xyz="1.99897 1.29059  1.25" rpy="0       0      -1.57159"/>
       <geometry>
         <box size="1.18422 0.2 2.5"/>
       </geometry>
       <material name="Gray"/>
     </visual>
-    <visual name="RoCKInATHome__Wall_14_Visual_1">
-      <origin xyz="-2.00081 -3.59059  1.25" rpy="0       0      -1.57159"/>
-      <geometry>
+  </link>
+  <link name="RoCKInATHome__Wall_15">
+    <inertial>
+	  <mass value="0"/>
+	  <origin xyz="0 0 0" rpy="0 0 0"/>
+	  <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+	</inertial>
+	<collision name="RoCKInATHome__Wall_15_Collision_1">
+	  <origin xyz="2.00081 3.59059  1.25" rpy="0       0      -1.57159"/>
+	  <geometry>
+	    <box size="1.41579 0.2 2.5"/>
+	  </geometry>
+	</collision>
+	<visual name="RoCKInATHome__Wall_15_Visual_1">
+      <origin xyz="2.00081 3.59059  1.25" rpy="0       0      -1.57159"/>
+	  <geometry>
         <box size="1.41579 0.2 2.5"/>
-      </geometry>
-      <material name="Gray"/>
-    </visual>
-    <visual name="RoCKInATHome__Wall_14_Visual_2">
-      <origin xyz="-1.99984 -2.3827   2.25" rpy="0       0      -1.57159"/>
-      <geometry>
-        <box size="1 0.2 0.5"/>
-      </geometry>
-      <material name="Gray"/>
-    </visual>
+	  </geometry>
+	  <material name="Gray"/>
+	</visual>
+  </link>
+  <link name="RoCKInATHome__Wall_17">
+    <inertial>
+	  <mass value="0"/>
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+		</inertial>
+		<collision name="RoCKInATHome__Wall_17_Collision_2">
+			<origin xyz="1.99984 2.3827   2.25" rpy="0       0      -1.57159"/>
+			<geometry>
+				<box size="1 0.2 0.5"/>
+			</geometry>
+		</collision>
+		<visual name="RoCKInATHome__Wall_17_Visual_2">
+			<origin xyz="1.99984 2.3827   2.25" rpy="0       0      -1.57159"/>
+			<geometry>
+				<box size="1 0.2 0.5"/>
+			</geometry>
+			<material name="Gray"/>
+		</visual>
   </link>
   <link name="RoCKInATHome__Wall_16">
     <inertial>
@@ -76,13 +90,13 @@
       <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
     </inertial>
     <collision name="RoCKInATHome__Wall_16_Collision">
-      <origin xyz="-0.79926 -4.20001  1.25" rpy="0     0     3.1408"/>
+      <origin xyz="0.79926 4.20001  1.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="2.60492 0.2 2.5"/>
       </geometry>
     </collision>
     <visual name="RoCKInATHome__Wall_16_Visual">
-      <origin xyz="-0.79926 -4.20001  1.25" rpy="0     0     3.1408"/>
+      <origin xyz="0.79926 4.20001  1.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="2.60492 0.2 2.5"/>
       </geometry>
@@ -96,13 +110,13 @@
       <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
     </inertial>
     <collision name="RoCKInATHome__Wall_18_Collision">
-      <origin xyz="-1.40001 -8.57369  1.25" rpy="0     0     3.1408"/>
+      <origin xyz="1.40001 8.57369  1.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="3.8 0.2 2.5"/>
       </geometry>
     </collision>
     <visual name="RoCKInATHome__Wall_18_Visual">
-      <origin xyz="-1.40001 -8.57369  1.25" rpy="0     0     3.1408"/>
+      <origin xyz="1.40001 8.57369  1.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="3.8 0.2 2.5"/>
       </geometry>
@@ -116,45 +130,46 @@
       <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
     </inertial>
     <collision name="RoCKInATHome__Wall_2_Collision_0">
-      <origin xyz="0.40324 -4.52267  1.25" rpy="0   0   1.57"/>
+      <origin xyz="-0.40324 4.52267  1.25" rpy="0   0   1.57"/>
       <geometry>
         <box size="8.30145 0.2 2.5"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_2_Collision_1">
-      <origin xyz="0.40746 0.77732 1.25" rpy="0   0   1.57"/>
+      <origin xyz="-0.40746 -0.77732 1.25" rpy="0   0   1.57"/>
       <geometry>
         <box size="0.298547 0.2 2.5"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_2_Collision_2">
-      <origin xyz="0.40695 0.12804 2.25" rpy="0   0   1.57"/>
+      <origin xyz="-0.40695 -0.12804 2.25" rpy="0   0   1.57"/>
       <geometry>
         <box size="1 0.2 0.5"/>
       </geometry>
     </collision>
     <visual name="RoCKInATHome__Wall_2_Visual_0">
-      <origin xyz="0.40324 -4.52267  1.25" rpy="0   0   1.57"/>
+      <origin xyz="-0.40324 4.52267  1.25" rpy="0   0   1.57"/>
       <geometry>
         <box size="8.30145 0.2 2.5"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_2_Visual_1">
-      <origin xyz="0.40746 0.77732 1.25" rpy="0   0   1.57"/>
+      <origin xyz="-0.40746 -0.77732 1.25" rpy="0   0   1.57"/>
       <geometry>
         <box size="0.298547 0.2 2.5"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_2_Visual_2">
-      <origin xyz="0.40695 0.12804 2.25" rpy="0   0   1.57"/>
+      <origin xyz="-0.40695 -0.12804 2.25" rpy="0   0   1.57"/>
       <geometry>
         <box size="1 0.2 0.5"/>
       </geometry>
       <material name="Gray"/>
     </visual>
   </link>
+  
   <link name="RoCKInATHome__Wall_20">
     <inertial>
       <mass value="0"/>
@@ -162,52 +177,52 @@
       <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
     </inertial>
     <collision name="RoCKInATHome__Wall_20_Collision_0">
-      <origin xyz="-3.20054 -8.54653  1.25" rpy="0   0   1.57"/>
+      <origin xyz="3.20054 8.54653  1.25" rpy="0   0   1.57"/>
       <geometry>
         <box size="0.251208 0.2 2.5"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_20_Collision_1">
-      <origin xyz="-3.19748 -4.69597  1.25" rpy="0   0   1.57"/>
+      <origin xyz="3.19748 4.69597  1.25" rpy="0   0   1.57"/>
       <geometry>
         <box size="3.24591 0.2 2.5"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_20_Collision_2">
-      <origin xyz="-3.19961 -7.36992  2.25" rpy="0   0   1.57"/>
+      <origin xyz="3.19961 7.36992  2.25" rpy="0   0   1.57"/>
       <geometry>
         <box size="2.102 0.2 0.5"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_20_Collision_3">
-      <origin xyz="-3.19961 -7.36992  0.35" rpy="0   0   1.57"/>
+      <origin xyz="3.19961 7.36992  0.35" rpy="0   0   1.57"/>
       <geometry>
         <box size="2.102 0.2 0.3"/>
       </geometry>
     </collision>
     <visual name="RoCKInATHome__Wall_20_Visual_0">
-      <origin xyz="-3.20054 -8.54653  1.25" rpy="0   0   1.57"/>
+      <origin xyz="3.20054 8.54653  1.25" rpy="0   0   1.57"/>
       <geometry>
         <box size="0.251208 0.2 2.5"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_20_Visual_1">
-      <origin xyz="-3.19748 -4.69597  1.25" rpy="0   0   1.57"/>
+      <origin xyz="3.19748 4.69597  1.25" rpy="0   0   1.57"/>
       <geometry>
         <box size="3.24591 0.2 2.5"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_20_Visual_2">
-      <origin xyz="-3.19961 -7.36992  2.25" rpy="0   0   1.57"/>
+      <origin xyz="3.19961 7.36992  2.25" rpy="0   0   1.57"/>
       <geometry>
         <box size="2.102 0.2 0.5"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_20_Visual_3">
-      <origin xyz="-3.19961 -7.36992  0.35" rpy="0   0   1.57"/>
+      <origin xyz="3.19961 7.36992  0.35" rpy="0   0   1.57"/>
       <geometry>
         <box size="2.102 0.2 0.7"/>
       </geometry>
@@ -221,39 +236,39 @@
       <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
     </inertial>
     <collision name="RoCKInATHome__Wall_22_Collision_0">
-      <origin xyz="-1.99747 -4.19952  1.25" rpy="0     0     3.1408"/>
+      <origin xyz="1.99747 4.19952  1.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="0.194709 0.2 2.5"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_22_Collision_1">
-      <origin xyz="-3.19591 -4.19857  1.25" rpy="0     0     3.1408"/>
+      <origin xyz="3.19591 4.19857  1.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="0.202171 0.2 2.5"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_22_Collision_2">
-      <origin xyz="-2.59482 -4.19905  2.25" rpy="0     0     3.1408"/>
+      <origin xyz="2.59482 4.19905  2.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="1 0.2 0.5"/>
       </geometry>
     </collision>
     <visual name="RoCKInATHome__Wall_22_Visual_0">
-      <origin xyz="-1.99747 -4.19952  1.25" rpy="0     0     3.1408"/>
+      <origin xyz="1.99747 4.19952  1.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="0.194709 0.2 2.5"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_22_Visual_1">
-      <origin xyz="-3.19591 -4.19857  1.25" rpy="0     0     3.1408"/>
+      <origin xyz="3.19591 4.19857  1.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="0.202171 0.2 2.5"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_22_Visual_2">
-      <origin xyz="-2.59482 -4.19905  2.25" rpy="0     0     3.1408"/>
+      <origin xyz="2.59482 4.19905  2.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="1 0.2 0.5"/>
       </geometry>
@@ -267,52 +282,52 @@
       <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
     </inertial>
     <collision name="RoCKInATHome__Wall_24_Collision_0">
-      <origin xyz="-7.79492  0.81279  1.25" rpy="0       0      -1.57159"/>
+      <origin xyz="7.79492  -0.81279  1.25" rpy="0       0      -1.57159"/>
       <geometry>
         <box size="0.241529 0.2 2.5"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_24_Collision_1">
-      <origin xyz="-7.79808 -3.14039  1.25" rpy="0       0      -1.57159"/>
+      <origin xyz="7.79808 3.14039  1.25" rpy="0       0      -1.57159"/>
       <geometry>
         <box size="0.252091 0.2 2.5"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_24_Collision_2">
-      <origin xyz="-7.79649 -1.16116  2.25" rpy="0       0      -1.57159"/>
+      <origin xyz="7.79649 1.16116  2.25" rpy="0       0      -1.57159"/>
       <geometry>
         <box size="3.70638 0.2 0.5"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_24_Collision_3">
-      <origin xyz="-7.79649 -1.16116  0.35" rpy="0       0      -1.57159"/>
+      <origin xyz="7.79649 1.16116  0.35" rpy="0       0      -1.57159"/>
       <geometry>
         <box size="3.70638 0.2 0.7"/>
       </geometry>
     </collision>
     <visual name="RoCKInATHome__Wall_24_Visual_0">
-      <origin xyz="-7.79492  0.81279  1.25" rpy="0       0      -1.57159"/>
+      <origin xyz="7.79492  -0.81279  1.25" rpy="0       0      -1.57159"/>
       <geometry>
         <box size="0.241529 0.2 2.5"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_24_Visual_1">
-      <origin xyz="-7.79808 -3.14039  1.25" rpy="0       0      -1.57159"/>
+      <origin xyz="7.79808 3.14039  1.25" rpy="0       0      -1.57159"/>
       <geometry>
         <box size="0.252091 0.2 2.5"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_24_Visual_2">
-      <origin xyz="-7.79649 -1.16116  2.25" rpy="0       0      -1.57159"/>
+      <origin xyz="7.79649 1.16116  2.25" rpy="0       0      -1.57159"/>
       <geometry>
         <box size="3.70638 0.2 0.5"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_24_Visual_3">
-      <origin xyz="-7.79649 -1.16116  0.35" rpy="0       0      -1.57159"/>
+      <origin xyz="7.79649 1.16116  0.35" rpy="0       0      -1.57159"/>
       <geometry>
         <box size="3.70638 0.2 0.7"/>
       </geometry>
@@ -326,13 +341,13 @@
       <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
     </inertial>
     <collision name="RoCKInATHome__Wall_28_Collision">
-      <origin xyz="-8.99916 -4.6668   1.25" rpy="0       0      -1.57159"/>
+      <origin xyz="8.99916 4.6668   1.25" rpy="0       0      -1.57159"/>
       <geometry>
         <box size="3.2 0.2 2.5"/>
       </geometry>
     </collision>
     <visual name="RoCKInATHome__Wall_28_Visual">
-      <origin xyz="-8.99916 -4.6668   1.25" rpy="0       0      -1.57159"/>
+      <origin xyz="8.99916 4.6668   1.25" rpy="0       0      -1.57159"/>
       <geometry>
         <box size="3.2 0.2 2.5"/>
       </geometry>
@@ -346,78 +361,78 @@
       <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
     </inertial>
     <collision name="RoCKInATHome__Wall_30_Collision_0">
-      <origin xyz="-8.46265 -6.16752  1.25" rpy="0      0     -0.0008"/>
+      <origin xyz="8.46265 6.16752  1.25" rpy="0      0     -0.0008"/>
       <geometry>
         <box size="1.27269 0.2 2.5"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_30_Collision_1">
-      <origin xyz="-5.46331 -6.16992  0.35" rpy="0      0     -0.0008"/>
+      <origin xyz="5.46331 6.16992  0.35" rpy="0      0     -0.0008"/>
       <geometry>
         <box size="4.726 0.2 0.7"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_30_Collision_2">
-      <origin xyz="-5.73606 -6.1697   1.6" rpy="0      0     -0.0008"/>
+      <origin xyz="5.73606 6.1697   1.6" rpy="0      0     -0.0008"/>
       <geometry>
         <box size="1.38049 0.2 1.8"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_30_Collision_3">
-      <origin xyz="-3.67306 -6.17135  1.6" rpy="0      0     -0.0008"/>
+      <origin xyz="3.67306 6.17135  1.6" rpy="0      0     -0.0008"/>
       <geometry>
         <box size="1.14551 0.2 1.8"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_30_Collision_4">
-      <origin xyz="-7.1263  -6.16859  2.35" rpy="0      0     -0.0008"/>
+      <origin xyz="7.1263  6.16859  2.35" rpy="0      0     -0.0008"/>
       <geometry>
         <box size="1.4 0.2 0.3"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_30_Collision_5">
-      <origin xyz="-4.64582 -6.17057  2.35" rpy="0      0     -0.0008"/>
+      <origin xyz="4.64582 6.17057  2.35" rpy="0      0     -0.0008"/>
       <geometry>
         <box size="0.8 0.2 0.3"/>
       </geometry>
     </collision>
     <visual name="RoCKInATHome__Wall_30_Visual_0">
-      <origin xyz="-8.46265 -6.16752  1.25" rpy="0      0     -0.0008"/>
+      <origin xyz="8.46265 6.16752  1.25" rpy="0      0     -0.0008"/>
       <geometry>
         <box size="1.27269 0.2 2.5"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_30_Visual_1">
-      <origin xyz="-5.46331 -6.16992  0.35" rpy="0      0     -0.0008"/>
+      <origin xyz="5.46331 6.16992  0.35" rpy="0      0     -0.0008"/>
       <geometry>
         <box size="4.726 0.2 0.7"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_30_Visual_2">
-      <origin xyz="-5.73606 -6.1697   1.6" rpy="0      0     -0.0008"/>
+      <origin xyz="5.73606 6.1697   1.6" rpy="0      0     -0.0008"/>
       <geometry>
         <box size="1.38049 0.2 1.8"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_30_Visual_3">
-      <origin xyz="-3.67306 -6.17135  1.6" rpy="0      0     -0.0008"/>
+      <origin xyz="3.67306 6.17135  1.6" rpy="0      0     -0.0008"/>
       <geometry>
         <box size="1.14551 0.2 1.8"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_30_Visual_4">
-      <origin xyz="-7.1263  -6.16859  2.35" rpy="0      0     -0.0008"/>
+      <origin xyz="7.1263  6.16859  2.35" rpy="0      0     -0.0008"/>
       <geometry>
         <box size="1.4 0.2 0.3"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_30_Visual_5">
-      <origin xyz="-4.64582 -6.17057  2.35" rpy="0      0     -0.0008"/>
+      <origin xyz="4.64582 6.17057  2.35" rpy="0      0     -0.0008"/>
       <geometry>
         <box size="0.8 0.2 0.3"/>
       </geometry>
@@ -431,39 +446,39 @@
       <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
     </inertial>
     <collision name="RoCKInATHome__Wall_32_Collision_0">
-      <origin xyz="-8.99761 -3.16597  1.25" rpy="0      0     -0.0008"/>
+      <origin xyz="8.99761 3.16597  1.25" rpy="0      0     -0.0008"/>
       <geometry>
         <box size="0.199231 0.2 2.5"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_32_Collision_1">
-      <origin xyz="-7.79822 -3.16693  1.25" rpy="0      0     -0.0008"/>
+      <origin xyz="7.79822 3.16693  1.25" rpy="0      0     -0.0008"/>
       <geometry>
         <box size="0.199549 0.2 2.5"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_32_Collision_2">
-      <origin xyz="-8.39799 -3.16645  2.25" rpy="0      0     -0.0008"/>
+      <origin xyz="8.39799 3.16645  2.25" rpy="0      0     -0.0008"/>
       <geometry>
         <box size="1 0.2 0.5"/>
       </geometry>
     </collision>
     <visual name="RoCKInATHome__Wall_32_Visual_0">
-      <origin xyz="-8.99761 -3.16597  1.25" rpy="0      0     -0.0008"/>
+      <origin xyz="8.99761 3.16597  1.25" rpy="0      0     -0.0008"/>
       <geometry>
         <box size="0.199231 0.2 2.5"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_32_Visual_1">
-      <origin xyz="-7.79822 -3.16693  1.25" rpy="0      0     -0.0008"/>
+      <origin xyz="7.79822 3.16693  1.25" rpy="0      0     -0.0008"/>
       <geometry>
         <box size="0.199549 0.2 2.5"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_32_Visual_2">
-      <origin xyz="-8.39799 -3.16645  2.25" rpy="0      0     -0.0008"/>
+      <origin xyz="8.39799 3.16645  2.25" rpy="0      0     -0.0008"/>
       <geometry>
         <box size="1 0.2 0.5"/>
       </geometry>
@@ -477,13 +492,13 @@
       <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
     </inertial>
     <collision name="RoCKInATHome__Wall_35_Collision">
-      <origin xyz="-3.49649 -3.17238  1.25" rpy="0     0     3.1408"/>
+      <origin xyz="3.49649 3.17238  1.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="0.8 0.2 2.5"/>
       </geometry>
     </collision>
     <visual name="RoCKInATHome__Wall_35_Visual">
-      <origin xyz="-3.49649 -3.17238  1.25" rpy="0     0     3.1408"/>
+      <origin xyz="3.49649 3.17238  1.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="0.8 0.2 2.5"/>
       </geometry>
@@ -497,52 +512,52 @@
       <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
     </inertial>
     <collision name="RoCKInATHome__Wall_8_Collision_0">
-      <origin xyz="-2.20574  0.83083  1.25" rpy="0     0     3.1408"/>
+      <origin xyz="2.20574  -0.83083  1.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="5.42201 0.2 2.5"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_8_Collision_1">
-      <origin xyz="-7.76973  0.83524  1.25" rpy="0     0     3.1408"/>
+      <origin xyz="7.76973  -0.83524  1.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="0.251416 0.2 2.5"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_8_Collision_2">
-      <origin xyz="-6.28039  0.83406  2.25" rpy="0     0     3.1408"/>
+      <origin xyz="6.28039  -0.83406  2.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="2.72728 0.2 0.5"/>
       </geometry>
     </collision>
     <collision name="RoCKInATHome__Wall_8_Collision_3">
-      <origin xyz="-6.28039  0.83406  0.35" rpy="0     0     3.1408"/>
+      <origin xyz="6.28039  -0.83406  0.35" rpy="0     0     3.1408"/>
       <geometry>
         <box size="2.72728 0.2 0.7"/>
       </geometry>
     </collision>
     <visual name="RoCKInATHome__Wall_8_Visual_0">
-      <origin xyz="-2.20574  0.83083  1.25" rpy="0     0     3.1408"/>
+      <origin xyz="2.20574  -0.83083  1.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="5.42201 0.2 2.5"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_8_Visual_1">
-      <origin xyz="-7.76973  0.83524  1.25" rpy="0     0     3.1408"/>
+      <origin xyz="7.76973  -0.83524  1.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="0.251416 0.2 2.5"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_8_Visual_2">
-      <origin xyz="-6.28039  0.83406  2.25" rpy="0     0     3.1408"/>
+      <origin xyz="6.28039  -0.83406  2.25" rpy="0     0     3.1408"/>
       <geometry>
         <box size="2.72728 0.2 0.5"/>
       </geometry>
       <material name="Gray"/>
     </visual>
     <visual name="RoCKInATHome__Wall_8_Visual_3">
-      <origin xyz="-6.28039  0.83406  0.35" rpy="0     0     3.1408"/>
+      <origin xyz="6.28039  -0.83406  0.35" rpy="0     0     3.1408"/>
       <geometry>
         <box size="2.72728 0.2 0.7"/>
       </geometry>
