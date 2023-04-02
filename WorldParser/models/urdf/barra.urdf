@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <robot name="barra">
   <material name="wood">
-    <texture filename="../../textures/wood.png"/>
+    <texture filename="textures/wood.png"/>
   </material>
   <link name="barra_link">
     <inertial>
