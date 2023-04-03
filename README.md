@@ -32,3 +32,5 @@ Once the package is imported, a folder called GrannyAnnie-world will appear in P
 After adding "URP" to the list of symbol definitions, make sure to save the settings by clicking "Apply" or "OK" at the bottom of the window. Then, restart Unity for the changes to take effect.  
 
 <img src = "wiki-images/pink-prefabs-sol.png">
+
+On Packages/GrannyAnnie-world/Resources/URDF/Materials select all materials and click Edit -> Rendering -> Materials -> Convert Selected Builtin Materials to URP.
