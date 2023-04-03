@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<robot name="barra">
+  <material name="wood">
+    <texture filename="textures/wood.jpg"/>
+  </material>
+  <link name="barra_link">
+    <inertial>
+      <mass value="50"/>
+      <origin xyz="0  0  0.5" rpy="0 0 0"/>
+      <inertia ixx="5" ixy="0" ixz="0" iyy="5" iyz="0" izz="5"/>
+    </inertial>
+    <collision name="barra_link_collision">
+      <origin xyz="5.6  5.16  0.5" rpy="0   0   1.57"/>
+      <geometry>
+        <box size="1.8 0.6 1"/>
+      </geometry>
+    </collision>
+    <visual name="barra_link_visual">
+      <origin xyz="5.6  5.16  0.5" rpy="0   0   1.57"/>
+      <geometry>
+        <box size="1.8 0.6 1"/>
+      </geometry>
+      <material name="wood"/>
+    </visual>
+  </link>
+</robot>
