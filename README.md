@@ -15,4 +15,8 @@ This repository contain scripts used to generate urdf files of GrannyAnnie gazeb
 
 1. Open the Package Manager from Unity Menu. Click `Window -> Package Manager`. A new package manager window will appear.  
 
-2. Click on the `+` sign on the top left corner of the package manager window and click on `Add Package from Git URL`. 
+2. Click on the `+` sign on the top left corner of the package manager window and click on `Add Package from Git URL`.  
+
+<img src = "wiki-images/pkg_manger_add.png">  
+
+3. Enter the git URL for the GrannyAnnie-world with the latest version tag (currently v0.0.1) `https://github.com/patricia241/GrannyAnnie-UnityWorld.git?path=/com.unity.robotics-world.grannyannie-unityworld#v0.0.1` in the text box and click `Add`.
