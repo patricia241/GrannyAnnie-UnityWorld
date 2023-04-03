@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<robot name="mesa_salon">
+  <material name="wood">
+    <texture filename="textures/wood.png"/>
+  </material>
+  <link name="mesa_salon__mesa_link">
+    <inertial>
+      <mass value="4"/>
+      <origin xyz="0     0     0.3075" rpy="0 0 0"/>
+      <inertia ixx="0.666275" ixy="1.92593e-34" ixz="1.70697e-17" iyy="0.899025" iyz="4.26742e-18" izz="0.97285"/>
+    </inertial>
+    <collision name="mesa_salon__mesa_link_collision">
+      <origin xyz="5.8   0.6    0.415" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.9 0.55 0.03"/>
+      </geometry>
+    </collision>
+    <collision name="mesa_salon__mesa_link_collision_pata_1_link">
+      <origin xyz="5.38  0.355  0.2" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.06 0.06 0.4"/>
+      </geometry>
+    </collision>
+    <collision name="mesa_salon__mesa_link_collision_pata_2_link">
+      <origin xyz="5.38  0.845  0.2" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.06 0.06 0.4"/>
+      </geometry>
+    </collision>
+    <collision name="mesa_salon__mesa_link_collision_pata_3_link">
+      <origin xyz="6.22  0.845  0.2" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.06 0.06 0.4"/>
+      </geometry>
+    </collision>
+    <collision name="mesa_salon__mesa_link_collision_pata_4_link">
+      <origin xyz="6.22  0.355  0.2" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.06 0.06 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="mesa_salon__mesa_link_visual">
+      <origin xyz="5.8   0.6    0.415" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.9 0.55 0.03"/>
+      </geometry>
+      <material name="wood"/>
+    </visual>
+    <visual name="mesa_salon__mesa_link_visual_pata_1_link">
+      <origin xyz="5.38  0.355  0.2" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.06 0.06 0.4"/>
+      </geometry>
+      <material name="wood"/>
+    </visual>
+    <visual name="mesa_salon__mesa_link_visual_pata_2_link">
+      <origin xyz="5.38  0.845  0.2" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.06 0.06 0.4"/>
+      </geometry>
+      <material name="wood"/>
+    </visual>
+    <visual name="mesa_salon__mesa_link_visual_pata_3_link">
+      <origin xyz="6.22  0.845  0.2" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.06 0.06 0.4"/>
+      </geometry>
+      <material name="wood"/>
+    </visual>
+    <visual name="mesa_salon__mesa_link_visual_pata_4_link">
+      <origin xyz="6.22  0.355  0.2" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.06 0.06 0.4"/>
+      </geometry>
+      <material name="wood"/>
+    </visual>
+  </link>
+</robot>

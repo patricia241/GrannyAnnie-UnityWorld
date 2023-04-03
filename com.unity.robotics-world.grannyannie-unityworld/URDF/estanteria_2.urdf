@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<robot name="estanteria_2">
+  <material name="wood">
+    <texture filename="textures/wood.png"/>
+  </material>
+  <link name="estanteria_2__estanteria_link">
+    <inertial>
+      <mass value="10"/>
+      <origin xyz="0    0    1.046" rpy="0 0 0"/>
+      <inertia ixx="3.12544" ixy="0" ixz="0" iyy="4.16584" iyz="0" izz="1.1204"/>
+    </inertial>
+    <collision name="estanteria_2__estanteria_link_collision">
+      <origin xyz="0.6  4.5   0.01" rpy="0 0 0"/>
+      <geometry>
+        <box size="1 0.35 0.02"/>
+      </geometry>
+    </collision>
+    <collision name="estanteria_2__estanteria_link_collision_basal_1_link">
+      <origin xyz="0.6  4.5   0.41" rpy="0 0 0"/>
+      <geometry>
+        <box size="1 0.35 0.02"/>
+      </geometry>
+    </collision>
+    <collision name="estanteria_2__estanteria_link_collision_basal_2_link">
+      <origin xyz="0.6  4.5   0.83" rpy="0 0 0"/>
+      <geometry>
+        <box size="1 0.35 0.02"/>
+      </geometry>
+    </collision>
+    <collision name="estanteria_2__estanteria_link_collision_basal_3_link">
+      <origin xyz="0.6  4.5   1.25" rpy="0 0 0"/>
+      <geometry>
+        <box size="1 0.35 0.02"/>
+      </geometry>
+    </collision>
+    <collision name="estanteria_2__estanteria_link_collision_basal_4_link">
+      <origin xyz="0.6  4.5   1.67" rpy="0 0 0"/>
+      <geometry>
+        <box size="1 0.35 0.02"/>
+      </geometry>
+    </collision>
+    <collision name="estanteria_2__estanteria_link_collision_basal_5_link">
+      <origin xyz="0.6  4.5   2.09" rpy="0 0 0"/>
+      <geometry>
+        <box size="1 0.35 0.02"/>
+      </geometry>
+    </collision>
+    <collision name="estanteria_2__estanteria_link_collision_lateral_1_link">
+      <origin xyz="0.09 4.5   1.05" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.35 2.1"/>
+      </geometry>
+    </collision>
+    <collision name="estanteria_2__estanteria_link_collision_lateral_2_link">
+      <origin xyz="1.11 4.5   1.05" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.35 2.1"/>
+      </geometry>
+    </collision>
+    <visual name="estanteria_2__estanteria_link_visual">
+      <origin xyz="0.6  4.5   0.01" rpy="0 0 0"/>
+      <geometry>
+        <box size="1 0.35 0.02"/>
+      </geometry>
+      <material name="wood"/>
+    </visual>
+    <visual name="estanteria_2__estanteria_link_visual_basal_1_link">
+      <origin xyz="0.6  4.5   0.41" rpy="0 0 0"/>
+      <geometry>
+        <box size="1 0.35 0.02"/>
+      </geometry>
+      <material name="wood"/>
+    </visual>
+    <visual name="estanteria_2__estanteria_link_visual_basal_2_link">
+      <origin xyz="0.6  4.5   0.83" rpy="0 0 0"/>
+      <geometry>
+        <box size="1 0.35 0.02"/>
+      </geometry>
+      <material name="wood"/>
+    </visual>
+    <visual name="estanteria_2__estanteria_link_visual_basal_3_link">
+      <origin xyz="0.6  4.5   1.25" rpy="0 0 0"/>
+      <geometry>
+        <box size="1 0.35 0.02"/>
+      </geometry>
+      <material name="wood"/>
+    </visual>
+    <visual name="estanteria_2__estanteria_link_visual_basal_4_link">
+      <origin xyz="0.6  4.5   1.67" rpy="0 0 0"/>
+      <geometry>
+        <box size="1 0.35 0.02"/>
+      </geometry>
+      <material name="wood"/>
+    </visual>
+    <visual name="estanteria_2__estanteria_link_visual_basal_5_link">
+      <origin xyz="0.6  4.5   2.09" rpy="0 0 0"/>
+      <geometry>
+        <box size="1 0.35 0.02"/>
+      </geometry>
+      <material name="wood"/>
+    </visual>
+    <visual name="estanteria_2__estanteria_link_visual_lateral_1_link">
+      <origin xyz="0.09 4.5   1.05" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.35 2.1"/>
+      </geometry>
+      <material name="wood"/>
+    </visual>
+    <visual name="estanteria_2__estanteria_link_visual_lateral_2_link">
+      <origin xyz="1.11 4.5   1.05" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.35 2.1"/>
+      </geometry>
+      <material name="wood"/>
+    </visual>
+  </link>
+</robot>

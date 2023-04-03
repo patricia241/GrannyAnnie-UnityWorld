@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<robot name="ground_plane">
+  <material name="Gray">
+    <color rgba="0.175 0.175 0.175 1.0"/>
+  </material>
+  <link name="ground_plane__link">
+    <inertial>
+      <mass value="0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="ground_plane_link_collision">
+      <geometry>
+        <box size="100 100 0.01"/>
+      </geometry>
+    </collision>
+    <visual name="ground_plane__ground_plane_link_visual">
+      <geometry>
+        <box size="100 100 0.01"/>
+      </geometry>
+      <material name="Gray"/>
+    </visual>
+  </link>
+</robot>
