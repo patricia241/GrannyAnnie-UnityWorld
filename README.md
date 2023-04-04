@@ -1,6 +1,5 @@
 # GrannyAnnie-UnityWorld
 
-[![Version](https://img.shields.io/github/v/tag/patricia241/GrannyAnnie-UnityWorld)](https://github.com/patricia241/GrannyAnnie-UnityWorld/releases)
 [![License](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE.md)
 ![Unity](https://img.shields.io/badge/unity-2021.3.16f1-brightgreen)
 
